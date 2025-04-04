@@ -35,7 +35,7 @@ export default function PreRepeter() {
     formData.append('year', yearFilter);
 
     try {
-      const response = await axios.post('http://localhost:8000/upload/', formData, {
+      const response = await axios.post('https://prerepeter.onrender.com', formData, {
         responseType: 'blob',
         headers: { 'Content-Type': 'multipart/form-data' },
       });
