@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-PyMuPDF
-python-multipart
-rapidfuzz
-python-docx
